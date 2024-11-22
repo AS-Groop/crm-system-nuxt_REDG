@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import {useIsLoadingStore} from "~/store/auth.store";
+
 useSeoMeta({
   title: "Login | CRM system"
 })
@@ -10,6 +12,10 @@ const name = ref('')
 watch(email,()=>{
   console.log(email.value )
 })
+
+const isLoadingStore = useIsLoadingStore();
+
+const router = useRouter()
 
 </script>
 
