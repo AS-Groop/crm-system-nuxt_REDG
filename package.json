@@ -21,15 +21,23 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "nuxt": "^3.14.1592",
+    "pinia": "^2.2.6",
     "radix-vue": "^1.9.10",
     "shadcn-nuxt": "^0.11.3",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7",
+    "uuid": "^11.0.3",
     "vue": "latest",
     "vue-router": "latest"
   },
   "devDependencies": {
     "@nuxtjs/color-mode": "^3.5.2",
-    "@nuxtjs/tailwindcss": "^6.12.2"
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@types/uuid": "^10.0.0"
+  },
+  "overrides": {
+    "nuxt": {
+      "vue": "latest"
+    }
   }
 }
